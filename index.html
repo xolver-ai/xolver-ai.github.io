@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="𝕏-Teaming: Multi-Turn Jailbreaks and Defenses with Adaptive Multi-Agents">
-  <meta name="keywords" content="𝕏-Teaming, Language Models, Safety, Multi-turn Jailbreaks">
+  <meta name="description" content="𝕏olver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team">
+  <meta name="keywords" content="𝕏olver, Multi-Agent Reasoning, Language Models, Experience Learning, Mathematics, Programming">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>𝕏-Teaming: Multi-Turn Jailbreaks and Defenses with Adaptive Multi-Agents</title>
+  <title>𝕏olver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Noto+Sans+Math|Castoro" rel="stylesheet">
 
@@ -41,37 +41,24 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">
-            <span class="x-title">𝕏</span>-Teaming: Multi-Turn Jailbreaks and Defenses with Adaptive Multi-Agents
+            <span class="x-title">𝕏</span>olver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team
           </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://salmanrahman.net/" target="_blank" rel="noopener noreferrer">Salman Rahman</a><sup>1*</sup>,</span>
+              <a href="https://tanzibhosain.com/" target="_blank" rel="noopener noreferrer">Md. Tanzib Hosain</a><sup>1*</sup>,</span>
             <span class="author-block">
-              <a href="https://liweijiang.me/" target="_blank" rel="noopener noreferrer">Liwei Jiang</a><sup>2*</sup>,</span>
+              <a href="https://salmanrahman.net/" target="_blank" rel="noopener noreferrer">Salman Rahman</a><sup>2*</sup>,</span>
             <span class="author-block">
-              <a href="https://www.jshiffer.xyz/" target="_blank" rel="noopener noreferrer">James Shiffer</a><sup>1*</sup>,</span>
+              <a href="https://kishormorol.com/" target="_blank" rel="noopener noreferrer">Md Kishor Morol</a><sup>3*</sup>,</span>
             <span class="author-block">
-              <a href="https://genglinliu.github.io/" target="_blank" rel="noopener noreferrer">Genglin Liu</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://www.linkedin.com/in/sheriff-issaka" target="_blank" rel="noopener noreferrer">Sheriff Issaka</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://rizwan09.github.io/" target="_blank" rel="noopener noreferrer">Md Rizwan Parvez</a><sup>3</sup>,</span>
-            <span class="author-block">
-              <a href="https://www.hamidpalangi.com/" target="_blank" rel="noopener noreferrer">Hamid Palangi</a><sup>4</sup>,</span>
-            <span class="author-block">
-              <a href="https://web.cs.ucla.edu/~kwchang/" target="_blank" rel="noopener noreferrer">Kai-Wei Chang</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://yejinc.github.io/" target="_blank" rel="noopener noreferrer">Yejin Choi</a><sup>5</sup>,</span>
-            <span class="author-block">
-              <a href="https://saadiagabriel.com/" target="_blank" rel="noopener noreferrer">Saadia Gabriel</a><sup>1</sup></span>
+              <a href="https://rizwan09.github.io/" target="_blank" rel="noopener noreferrer">Md Rizwan Parvez</a><sup>4</sup></span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of California, Los Angeles,</span>
-            <span class="author-block"><sup>2</sup>University of Washington,</span>
-            <span class="author-block"><sup>3</sup>Qatar Computing Research Institute,</span>
-            <span class="author-block"><sup>4</sup>Google,</span>
-            <span class="author-block"><sup>5</sup>Stanford University</span>
+            <span class="author-block"><sup>1</sup>American International University,</span>
+            <span class="author-block"><sup>2</sup>University of California, Los Angeles,</span>
+            <span class="author-block"><sup>3</sup>Cornell University,</span>
+            <span class="author-block"><sup>4</sup>Qatar Computing Research Institute</span>
           </div>
 
           <div class="is-size-6 publication-authors"><sup>*</sup>Equal contribution</div>
@@ -99,7 +86,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/salman-lui/x-teaming" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/kagnlp/Xolver" target="_blank" rel="noopener noreferrer"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -129,15 +116,13 @@
   <div class="container is-max-desktop">
     <div class="content has-text-justified">
       <p>
-        Multi-turn interactions with language models (LMs) pose critical safety risks, as harmful intent can be strategically spread across exchanges.
-        Yet, the vast majority of prior work has focused on single-turn safety, while adaptability and diversity remain among the key challenges of multi-turn red-teaming.
-        To address these challenges, we present <span class="has-text-weight-bold"><span class="x-struck">𝕏</span>-Teaming</span>, a scalable framework that systematically explores how seemingly harmless interactions escalate into harmful outcomes and generates corresponding attack scenarios.
+        Despite impressive progress on complex reasoning, current large language models (LLMs) typically operate in isolation—treating each problem as an independent attempt, without accumulating or integrating experiential knowledge. In contrast, expert problem solvers—such as Olympiad or programming contest teams—leverage a rich tapestry of experiences: absorbing mentorship from coaches, developing intuition from past problems, leveraging knowledge of tool usage and library functionality, adapting strategies based on the expertise and experiences of peers, continuously refining their reasoning through trial and error, and learning from other related problems even during competition.
       </p>
       <p>
-        <span class="x-struck">𝕏</span>-Teaming employs collaborative agents for planning, attack optimization, and verification, achieving state-of-the-art multi-turn jailbreak effectiveness and diversity with <span class="has-text-weight-bold">success rates up to 98.1%</span> across representative leading open-weight and closed-source models. In particular, <span class="x-struck">𝕏</span>-Teaming achieves a 96.2% attack success rate against the latest Claude 3.7 Sonnet model, which has been considered nearly immune to single-turn attacks.
+        Inspired by this, we introduce 𝕏olver—a training-free, multi-agent reasoning framework that equips a black-box LLM with a persistent, evolving memory of holistic experience. 𝕏olver integrates diverse experience modalities, including external and self-retrieval, tool use, agent collaboration, self-evaluation, and iterative refinement. By learning from relevant strategies, code fragments, and abstract reasoning patterns at inference time, 𝕏olver avoids generating solutions from scratch—marking a transition from isolated inference toward experience-aware language agents.
       </p>
       <p>
-        Building on <span class="x-struck">𝕏</span>-Teaming, we introduce <span class="x-guard has-text-weight-bold"><span class="x-struck">𝕏</span>Guard-Train</span>, an open-source multi-turn safety training dataset that's ~20× larger than the previous best resource, comprising 30K interactive jailbreaks, designed to enable robust multi-turn safety alignment for LMs. Our work offers essential tools and insights for mitigating sophisticated conversational attacks, advancing the multi-turn safety of LMs.
+        Built on both open-weight and proprietary models, 𝕏olver consistently outperforms specialized reasoning agents (e.g., OctoTools, CheatSheet, Search-o1). Even when instantiated with lightweight backbones (e.g., QWQ-32B), it often surpasses the most advanced models to date—including Qwen3-235B, Gemini 2.5 Pro, o3, and o4-mini-high. With a stronger backbone like o3-mini-high, it achieves a new best result—<span class="has-text-weight-bold">98.1% on GSM8K, 94.4% on AIME'24, 93.7% on AIME'25, 99.8% on Math-500, and 91.6% on LiveCodeBench</span>—highlighting holistic experience learning as a key step toward dynamic, generalist agents capable of expert-level reasoning.
       </p>
     </div>
   </div>
@@ -148,7 +133,7 @@
     <!-- Framework Figure. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <img src="./static/images/framework.png" alt="𝕏-Teaming Framework"
+        <img src="./static/images/framework.png" alt="𝕏olver Framework"
              class="framework-image"/>
       </div>
     </div>

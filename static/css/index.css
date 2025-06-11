@@ -227,7 +227,7 @@ body {
 }
 
 .x-title {
-    color: rgb(250, 166, 0); /* This is the dark yellow color from your LaTeX definition */
+    color: #00d1b2; /* Bulma's green color */
     font-family: 'Noto Sans Math', sans-serif;
     font-weight: bold;
     font-size: 1.1em;
